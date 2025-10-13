@@ -38,6 +38,31 @@
   p, li {
     color: #004D40; /* readable tropical text */
   }
+  /* ---- Buttons: make them visible on light cards ---- */
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid transparent;
+  background: #1976d2;        /* blue primary */
+  color: #ffffff;              /* white text */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.btn:hover { background: #145ea8; }
+
+.btn.outline {
+  background: #ffffff;
+  color: #1976d2;
+  border-color: #1976d2;
+}
+.btn.outline:hover {
+  background: #e8f1fb;
+}
+
+.btn a { color: inherit; text-decoration: none; }
+</style><script defer src="assets/script.js"></script>
   
 </style><script defer src="assets/script.js"></script>
 </head>
